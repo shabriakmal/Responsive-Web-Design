@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0; 
+}
+
+#navbar {
+  width: 300px;
+  min-width: 200px;
+  height: 100vh;
+  border-right: 3px solid #5f5f5f;
+  border-bottom: 3px solid #5f5f5f;
+  padding-right: 5px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  overflow-y: auto;
+}
+
+#navbar header {
+  width: inherit;
+  line-height: 10px;
+  font-weight: 650;
+  font-size: 1.1rem;
+  padding-bottom: 15px;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+} 
+
+#navbar li {
+  border-top: 1px solid #5f5f5f;
+  padding: 10px 2px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #5f5f5f;
+  font-size: 0.95rem;
+  display: block;
+}
+
+#navbar a:hover {
+  color: #1a1a1a;
+  font-weight: bold;
+}
+
+#main-doc {
+  flex: 1;
+  padding: 20px 40px;
+  max-width: calc(100%-300px);
+}
+
+.main-section {
+  padding: 10px 0 30px 0;
+  font-size: 0.8rem;
+  line-height: 1.1;
+  text-align: justify;
+}
+
+.main-section header {
+  font-size: 1.2rem;
+  font-weight: 750;
+}
+
+.main-section li {
+  margin-bottom: 6px;
+}
+
+code {
+  display: block;
+  line-height: 0.9;
+  background-color: #dfdfdf;
+  font-family: 'Consolas';
+  border-radius: 8px;
+  padding: 0.1px 6px;
+  margin: 10px 0;
+  font-size: 0.75rem;
+  overflow-x: auto;
+}
+
+code p{
+  margin: 5px 0;
+  font-size: 0.75rem;
+}
+
+.codepara {
+  font-family: monospace;
+  font-size: 0.75rem;
+  background-color: #dfdfe2;
+  padding: 0.07rem;
+  border-radius: 10%;
+}
+
+/* Syntax Highlighting - Color */
+.code-keyword {
+  color: #0000ff;
+  font-weight: 600;
+}
+
+.code-string {
+  color: #a31515;
+}
+
+.code-comment {
+  color: #008000;
+  font-style: italic;
+}
+
+.code-function {
+  color: #795e26;
+  font-weight: 600;
+}
+
+.code-number {
+  color: #098658;
+}
+
+.code-boolean {
+  color: #0000ff;
+  font-weight: 600;
+}
+
+.code-variable {
+  color: #001080;
+}
+
+.code-operator {
+  color: #000000;
+}
+
+.code-class {
+  color: #267f99;
+  font-weight: 600;
+}
+
+.code-parameter {
+  color: #001080;
+}
+
+.code-bracket {
+  color: #8b008b;
+}
+
+.code-return {
+  color: #0000ff;
+  font-weight: 600;
+}
+
+.code-console {
+  color: #795e26;
+}
+
+@media (max-width: 768px) {
+  body {
+    flex-direction: column; 
+  }
+  #navbar {
+    width: 100%;
+    max-height: 200px;
+  }
+}
