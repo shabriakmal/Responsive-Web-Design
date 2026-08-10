@@ -1,0 +1,88 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  color: #0a0a23;
+}
+
+table {
+  border-collapse: collapse;
+  text-align: center;
+  vertical-align: center;
+  
+}
+
+td,th {
+  padding: 0.2rem 0.1rem;
+}
+
+tr[class=read] {
+  background-image: linear-gradient(to bottom, white ,lightgreen);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(to bottom,white,lightgrey);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(to bottom,white,moccasin);
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  border: 2px solid darkred;
+  background-image: linear-gradient(to bottom,coral,red);
+  width: 6rem;
+  height: 1rem;
+  border-radius: 60px;
+  text-align: center;
+}
+
+tr[class="read"] span[class="status"] {
+  border: 2px solid darkgreen;
+  background-image: linear-gradient(to bottom,lightgreen,green);
+  width: 6rem;
+  height: 1rem;
+  border-radius: 60px;
+  text-align: center;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  border: 2px solid darkorange;
+  background-image: linear-gradient(to bottom,moccasin,orange);
+  width: 6rem;
+  height: 1rem;
+  border-radius: 60px;
+  text-align: center;
+}
+
+span[class="status"], span[class^="rate"] {
+  width: 5rem;
+  height: 1rem; 
+  padding: 12px;
+  margin: 5px;
+}
+
+span[class^="rate"] > span {
+  border: 2px solid gray;
+  border-radius: 100%;
+  margin: 1px;
+  height: 1rem;
+  width: 1rem;
+  background-color: #dfdfe2;
+}
+
+span[class~="one"] :first-child {
+  background-image: linear-gradient(to bottom,moccasin,yellow);
+}
+
+span[class~="two"] span:first-child, span[class~="two"] span:nth-child(2) {
+  background-image: linear-gradient(to bottom,moccasin,yellow);
+}
+span[class~="three"] span{
+  background-image: linear-gradient(to bottom,moccasin,yellow);}
