@@ -1,0 +1,47 @@
+body{
+  background-color:skyblue;
+  padding:50px 0;
+  margin:0 auto;
+  min-height:calc(100vh - 100px);
+  width:95vw;
+  text-align:center;
+  border:3vw solid beige;
+}
+h1{
+  font-family:cursive;
+  font-size:1.8rem;
+}
+h2{
+  font-family:cursive;
+  font-size:1.2rem;
+}
+header p{
+  font-size:0.9rem;
+}
+section p{
+  font-size:0.6rem;
+}
+footer{
+  font-size:0.3rem;
+  padding-bottom:5px;
+}
+img{
+  width:25%;
+  padding-top:20px;
+  text-align:center;
+}
+hr{
+  width: 80%;
+  height: 1px;
+  background-color: black;                     
+  border-color:black;
+  margin: 0px auto;
+}
+section{
+  display:inline-block;
+  width:30%;
+  margin:0 5px;
+}
+section ul{
+  text-align:left;
+}

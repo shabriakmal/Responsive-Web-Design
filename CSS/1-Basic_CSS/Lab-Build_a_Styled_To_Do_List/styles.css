@@ -1,0 +1,36 @@
+body{
+  background-color:lightgreen;
+  padding:20px;
+}
+main{
+  width:80%;
+  background-color:beige;
+  margin:auto;
+  padding:10px;
+}
+h1{
+  text-align:center;
+  font-size:48px;
+}
+.todo-list{
+  list-style-type:none;
+  font-size:26px;
+}
+a{
+  text-decoration:none;
+}
+a:link{
+  color:navy; 
+}
+a:focus{
+  outline:2px solid brown;
+}
+a:visited{
+  color:red;
+}
+a:hover{
+  color:saddlebrown;
+}
+a:active{
+  color:darkcyan;
+}
