@@ -1,0 +1,45 @@
+body{
+  background-color:rosybrown;
+}
+
+.form-container{
+  background-color:#efefef;
+  font-family:tahoma;
+  border-radius: 5px;
+  padding: 10px 0;
+  min-width: 300px;
+  width: 80%;
+  margin: 10px auto;
+}
+
+h2{
+  text-align:center;
+  margin: 10px 10px;
+}
+
+label{
+  display: block;
+  margin: 10px;
+  color:#855;
+}
+
+input,textarea{
+  width:95%;
+  padding:10px 2px;
+  margin-bottom: 5px;
+}
+
+button{
+  display:block;
+  background-color:rgba(186,126,126,70%);
+  font-size:1rem;
+  color:#eee;
+  border-color:#efefef;
+  margin:1em auto;
+  width:15%;
+  height:1.8em;
+}
+
+button:hover{
+  background-color:rgba(186,126,126,90%);
+}
