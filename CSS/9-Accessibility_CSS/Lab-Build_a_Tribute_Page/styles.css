@@ -1,0 +1,41 @@
+body {
+  background-color: white;
+}
+#main {
+  text-align: center;
+  font-family: Tahoma, Verdana;
+  background-color: lightgrey;
+  width: 95%;
+  margin: 0 auto;
+  padding: 5px;
+}
+#title {
+  font-weight: 550;
+  padding: 10px;
+}
+#title ~ p {
+  font-size: 0.6rem;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  aspect-ratio: 6/5;
+  object-fit: cover;
+}
+#img-caption {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 0.4rem;
+}
+#tribute-info {
+  font-size: 0.4rem;
+}
+.bold {
+  font-weight: 550;
+}
+#tribute-info ul {
+  text-align: left;
+}
